@@ -1,0 +1,430 @@
+.home-img {
+    background-image: url(../img/home-pic2.jpg); /*image gotten from https://images.unsplash.com/photo-1599837514328-e5a6e82f75c2?ixlib=rb-4.0.3&dl=vince-lee-Q4k5P91z-0A-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb*/
+    background-repeat: no-repeat; /*This information is from https://www.w3schools.com/html/html_images_background.asp */
+    background-size: cover; /*This information is from https://www.w3schools.com/html/html_images_background.asp and https://medium.com/@woutervanderzee/creating-a-website-hero-module-with-flexbox-and-the-vh-unit-b39113aaceb2 */
+    
+    min-height: 100vh; /*This information was obtained from https://www.w3schools.com/html/html_images_background.asp and https://medium.com/@woutervanderzee/creating-a-website-hero-module-with-flexbox-and-the-vh-unit-b39113aaceb2 */
+}
+
+nav {
+    text-align: center;
+    margin: 2.813rem -2rem;
+}
+
+body {
+    font-family: "Work Sans", "Lato", "DM Sans", "Montserrat", Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0 2rem 0 2rem;
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar { 
+    width: 100%;
+    text-align: right;
+}
+
+.home-title-font {
+    font-family:"Hoefler Text",'Times New Roman', Times, serif;
+    font-size: 5rem;
+    text-align: right;
+    margin: 11rem 23rem 1rem;
+    color: black;
+}
+
+h2, h3 {
+    font-family:"Hoefler Text",'Times New Roman', Times, serif;
+    font-weight: normal;
+    padding-top: 2rem;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.pages-header {
+    background-color: #ADC3D7;
+}
+
+.logo{
+    font-family:"Hoefler Text",'Times New Roman', Times, serif;
+    margin: 2.813rem 4rem 0 5rem;
+    color: black;
+    font-size: medium;
+    padding: 0;
+}
+
+.logo:hover{
+    text-decoration: none;
+}
+
+.home-subtitle{
+    font-size: 1.3rem;
+    font-weight: 100px;
+    margin: 0rem 23rem 0 52rem;
+}
+
+.main-content {
+    margin: 5rem 5rem;
+    text-align: center;
+}
+
+.homepage-about{
+    text-align: right;
+    margin: 5rem 20rem;
+}
+
+.register-wrapper{
+    text-align: center;
+}
+
+.form-first-name {
+    text-align: left;
+}
+
+.form-last-name {
+    text-align: left;
+}
+
+.form-rest-info {
+    text-align: left;
+}
+
+.form-wrapper{
+    margin: 2rem 18rem 4rem 18rem;
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.login-form-wrapper{
+    margin: 2rem 25rem 4rem 25rem;
+    background-color: aliceblue;
+    padding: 3rem 2rem;
+    border-radius: 2rem;
+    text-align: left;
+}
+
+.login-register a {
+    padding: 0;
+    text-decoration: none;
+}
+
+.login-register-strong:hover{
+    text-decoration: underline;
+}
+
+input[type=text] {
+    margin: 0.5rem 0 2rem 0;
+    height: 1.5rem;
+    width: 100%;
+}
+
+input[type=password] {
+    margin: 0.5rem 0 2rem 0;
+    height: 1.5rem;
+    width: 100%;
+}
+
+input[type=email] {
+    margin: 0.5rem 0 2rem 0;
+    height: 1.5rem;
+    width: 100%;
+}
+
+select {
+    margin-top: 1rem;
+}
+
+.form-submit{
+    width: 30%;
+    height: 4%;
+    border-radius: 2rem;
+    border-width: thin;
+    background-color: #F5F5F5;
+}
+
+.form-submit-wrapper{
+    text-align: center;
+}
+
+.image-gallery {
+    text-align:center;
+}
+.image-gallery img {
+    padding: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    border: 1px solid #FFFFFF;
+    border-radius: 6rem;
+    margin: 21px 0;
+    width: 20rem;
+}
+
+.profile-wrapper{
+    margin: 2rem 25rem 4rem 25rem;
+    text-align: center;
+}
+
+.profile-buttons{
+    margin: 2rem 0 4rem 0;
+}
+
+.profile-wrapper p{
+    font-size: 0.9rem;
+}
+
+.action{
+    border: 1px black solid;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    max-width: 11rem;
+    text-align: center;
+    margin: 0;
+    
+}
+
+.action:hover{
+    background-color: #ADC3D7;
+    color: black;
+    text-decoration: none;
+    border: 0;
+}
+
+.edit-profile-form{
+    text-align: left;
+}
+
+.img-container {
+	width: 740px;
+	margin: 20 auto;
+	padding: 0px 20px 0px 20px;
+}
+
+.img-container label {
+    padding-bottom: 3rem;
+}
+
+.tile-container {
+	width: 240px;
+	border: #9a9a9a 1px solid;
+	border-radius: 3px;
+	padding: 10px 20px 10px 20px;
+}
+
+.row {
+	padding: 1rem 0 1rem 0;
+}
+
+.loginLink{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 3rem;
+}
+
+.loginLink:hover {
+    background-color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.pages-wrapper{
+    margin: 2rem 8rem;
+}
+
+.pages-wrapper h2{
+    text-align: center;
+}
+
+
+.carousel {
+    width: 100%;
+}
+
+.art-item{
+    overflow: hidden;
+}
+
+.art-item p{
+    padding: 0 1rem;
+    text-align: left;
+}
+
+.art-item p a {
+    margin :0;
+    padding:0;
+    text-decoration: none;
+}
+
+.art-item:hover {
+    background-color: #e4f4ff;
+    opacity: 0.9;
+}
+
+.about-img{
+    position: relative;
+}
+
+.home-about {
+    background-color: #dbc79c75;
+    margin-top: 6rem;
+}
+
+.about-content {
+    margin: 3rem 5rem;
+    line-height: 2rem;
+}
+
+.about-content a{
+    font-weight: bold;
+    padding: 0.1rem;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.about-content h3{
+    text-align: center;
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+}
+
+.creators {
+    text-align: center;
+}
+
+.creators img {
+    width: 15rem;
+    background-color: #67a1d58f;
+    padding: 3rem;
+    border-radius: 10rem;
+}
+
+.creators-wrapper {
+    margin-top: 5rem;
+}
+
+.creators p{
+    text-align: left;
+    padding: 2rem;
+    line-height: 1.5rem;
+}
+
+.footer {
+    text-align: center;
+    background-color: #dbc79c75;
+    padding: 2rem 3rem;
+    margin-top: 20rem;
+}
+
+.footer p{
+    padding: 1rem;
+    font-size: 0.7rem;
+}
+
+.footer a{
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+.footer-map {
+    align-items: center;
+    margin: auto;
+    display: contentsf;
+}
+
+.explore-btn {
+    
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    width: fit-content;
+    font-size: 0.8rem;
+    margin: 2rem 4rem 4rem ;
+    font-weight: bold;
+    background-color: #ADC3D7;
+}
+
+.explore-btn-wrapper {
+    text-align: -webkit-center;
+}
+
+.explore-btn a {
+    padding: 0;
+    margin: 0;
+}
+
+.collections-header{
+    text-align: center;
+}
+
+.homepage-titles {
+    position: relative;
+}
+
+#item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#item img{
+    width: 61%;
+    height: 64%;
+}
+
+.item-search{
+    flex: 0 0 33%;
+}
+
+
+.details-image {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.details-image-wrapper{
+    margin: 5rem 4rem 2rem;
+}
+
+.details-image-wrapper h2 {
+    padding: 0;
+    margin: 3rem;
+}
+
+.details-image-wrapper a{
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.details-url {
+    font-weight:600;
+}
+
+.details-url:hover{
+    text-decoration: none;
+    color: #0c79d7;
+}
+
+.favouriteList-items{
+    margin: 3rem 0 4rem;
+}
+
+.search-button-collection{
+    margin: 3rem;
+}
+
+.search-collection-select select{
+    margin: 1rem 2rem 0 3rem;
+    padding: 0.3rem;
+}
+
+.explore-h2-homepage {
+    text-align: center;
+}

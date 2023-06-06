@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid.add-gutters {
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+}
+
+.grid.two-columns {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+}
+
+.grid.three-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-rows: auto; 
+}
+
+
+.grid.header-menu {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+}
